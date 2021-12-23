@@ -1,4 +1,4 @@
-package com.nantoka.smaatocustomcsmadapter;
+package com.smaato.csmadapter.demo;
 
 
 import android.annotation.SuppressLint;

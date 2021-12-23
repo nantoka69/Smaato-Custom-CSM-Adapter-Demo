@@ -10,5 +10,7 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "Smaato Custom CSM Adapter"
+rootProject.name = "Smaato Custom CSM Adapter Demo"
+
 include ':app'
+include ':banneradapter'

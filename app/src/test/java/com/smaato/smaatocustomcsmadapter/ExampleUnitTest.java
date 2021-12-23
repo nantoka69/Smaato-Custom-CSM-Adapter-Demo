@@ -1,4 +1,4 @@
-package com.nantoka.smaatocustomcsmadapter;
+package com.smaato.smaatocustomcsmadapter;
 
 import org.junit.Test;
 

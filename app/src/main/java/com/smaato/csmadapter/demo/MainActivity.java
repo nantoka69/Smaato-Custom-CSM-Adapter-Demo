@@ -1,7 +1,4 @@
-package com.nantoka.smaatocustomcsmadapter;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+package com.smaato.csmadapter.demo;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -18,6 +15,9 @@ import com.smaato.sdk.rewarded.RewardedInterstitial;
 import com.smaato.sdk.rewarded.RewardedInterstitialAd;
 import com.smaato.sdk.rewarded.RewardedRequestError;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
     BannerView bannerView;
 
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setBannerViewListener();
 
         findViewById(R.id.button_banner).setOnClickListener(ignore ->
-                bannerView.loadAd("133149963", BannerAdSize.XX_LARGE_320x50));
+                bannerView.loadAd("130710114", BannerAdSize.XX_LARGE_320x50));
 
         findViewById(R.id.button_interstitial).setOnClickListener(ignore ->
                 Interstitial.loadAd("133149969", interstitialEventListener));

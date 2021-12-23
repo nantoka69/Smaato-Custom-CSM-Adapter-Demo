@@ -1,4 +1,4 @@
-package com.nantoka.smaatocustomcsmadapter;
+package com.smaato.csmadapter.demo;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.nantoka.smaatocustomcsmadapter", appContext.getPackageName());
+        assertEquals("com.smaato.customcsmadapterdemo.banneradapter.test", appContext.getPackageName());
     }
 }
