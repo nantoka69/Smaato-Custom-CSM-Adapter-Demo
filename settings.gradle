@@ -14,3 +14,5 @@ rootProject.name = "Smaato Custom CSM Adapter Demo"
 
 include ':app'
 include ':banneradapter'
+
+include ':interstitialadapter'

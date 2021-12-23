@@ -1,18 +1,18 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
 }
 
 android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.nantoka.smaatocustomcsmadapter"
         minSdk 16
         targetSdk 31
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -25,16 +25,21 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
-    implementation project(path: ':banneradapter')
-    implementation project(path: ':interstitialadapter')
-
     implementation 'com.smaato.android.sdk:smaato-sdk:21.6.7'
-    implementation 'com.smaato.android.sdk:smaato-sdk-banner:21.6.7'
+    implementation 'com.smaato.android.sdk:smaato-sdk-interstitial:21.6.7'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+
+    compileOnly 'com.google.auto.service:auto-service-annotations:1.0.1'
+    annotationProcessor 'com.google.auto.service:auto-service:1.0.1'
 
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 }

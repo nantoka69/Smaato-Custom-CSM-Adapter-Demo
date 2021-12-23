@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 bannerView.loadAd("130710114", BannerAdSize.XX_LARGE_320x50));
 
         findViewById(R.id.button_interstitial).setOnClickListener(ignore ->
-                Interstitial.loadAd("133149969", interstitialEventListener));
+                Interstitial.loadAd("130710116", interstitialEventListener));
 
         findViewById(R.id.button_rewarded).setOnClickListener(ignore ->
                 RewardedInterstitial.loadAd("133149969", rewardedEventListener));
