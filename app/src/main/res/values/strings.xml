@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Smaato Custom CSM Adapter Demo</string>
+    <string name="button_label_rewarded">Rewarded</string>
+    <string name="button_label_interstitial">Interstitial</string>
+    <string name="button_label_banner">Banner</string>
+</resources>
