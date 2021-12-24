@@ -16,6 +16,7 @@ public class InterstitialActivity extends AppCompatActivity {
         setContentView(R.layout.activity_interstitial);
 
         findViewById(R.id.text).setOnClickListener(ignore -> onClick.run());
+        findViewById(R.id.close).setOnClickListener(ignore -> finish());
 
         if (getSupportActionBar() != null){
             getSupportActionBar().hide();

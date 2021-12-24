@@ -29,6 +29,8 @@ public class RewardedActivity extends AppCompatActivity {
             getSupportActionBar().hide();
         }
 
+        findViewById(R.id.close).setOnClickListener(ignore -> finish());
+
         startCountDown();
     }
 
