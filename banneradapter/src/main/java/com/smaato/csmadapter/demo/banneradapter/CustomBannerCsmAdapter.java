@@ -16,7 +16,7 @@ import androidx.annotation.NonNull;
 @AutoService(SMABannerNetworkEvent.class)
 public class CustomBannerCsmAdapter implements SMABannerNetworkEvent {
 
-    private static final String NETWORK_NAME = "SMACustomCSMBannerAdapter"; //This name needs to be configured in SPX as Classname
+    private static final String NETWORK_NAME = "SMACustomCSMBannerAdapter"; //This is the name that has been configured in SPX as Classname
 
     SMABannerNetworkEventListener smaBannerNetworkEventListener;
 

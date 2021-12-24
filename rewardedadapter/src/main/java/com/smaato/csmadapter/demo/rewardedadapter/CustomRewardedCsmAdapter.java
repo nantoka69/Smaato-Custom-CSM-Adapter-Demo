@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 @AutoService(SMARewardedNetworkEvent.class)
 public class CustomRewardedCsmAdapter implements SMARewardedNetworkEvent{
 
-    private static final String NETWORK_NAME = "SMACustomCSMRewardedAdapter"; //This name needs to be configured in SPX as Classname
+    private static final String NETWORK_NAME = "SMACustomCSMRewardedAdapter"; //This is the name that has been configured in SPX as Classname
 
 
     private SMARewardedNetworkEventListener smaRewardedNetworkEventListener;

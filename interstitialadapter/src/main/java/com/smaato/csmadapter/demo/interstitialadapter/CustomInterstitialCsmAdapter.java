@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 @AutoService(SMAInterstitialNetworkEvent.class)
 public class CustomInterstitialCsmAdapter implements SMAInterstitialNetworkEvent {
 
-    private static final String NETWORK_NAME = "SMACustomCSMInterstitialAdapter"; //This name needs to be configured in SPX as Classname
+    private static final String NETWORK_NAME = "SMACustomCSMInterstitialAdapter"; //This is the name that has been configured in SPX as Classname
 
     private SMAInterstitialNetworkEventListener smaInterstitialNetworkEventListener;
     private Activity launchActivity;
