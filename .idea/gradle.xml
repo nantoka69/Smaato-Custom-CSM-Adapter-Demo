@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/banneradapter" />
             <option value="$PROJECT_DIR$/interstitialadapter" />
+            <option value="$PROJECT_DIR$/rewardedadapter" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

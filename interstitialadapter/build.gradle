@@ -33,9 +33,6 @@ android {
 dependencies {
     implementation 'com.smaato.android.sdk:smaato-sdk:21.6.7'
     implementation 'com.smaato.android.sdk:smaato-sdk-interstitial:21.6.7'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
-    implementation 'androidx.navigation:navigation-fragment:2.3.5'
-    implementation 'androidx.navigation:navigation-ui:2.3.5'
 
     compileOnly 'com.google.auto.service:auto-service-annotations:1.0.1'
     annotationProcessor 'com.google.auto.service:auto-service:1.0.1'

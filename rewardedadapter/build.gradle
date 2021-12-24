@@ -1,18 +1,18 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
 }
 
 android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.nantoka.smaatocustomcsmadapter"
         minSdk 16
         targetSdk 31
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -28,14 +28,11 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':banneradapter')
-    implementation project(path: ':interstitialadapter')
-    implementation project(path: ':rewardedadapter')
-
     implementation 'com.smaato.android.sdk:smaato-sdk:21.6.7'
-    implementation 'com.smaato.android.sdk:smaato-sdk-banner:21.6.7'
+    implementation 'com.smaato.android.sdk:smaato-sdk-rewarded-ads:21.6.7'
 
+    compileOnly 'com.google.auto.service:auto-service-annotations:1.0.1'
+    annotationProcessor 'com.google.auto.service:auto-service:1.0.1'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 }

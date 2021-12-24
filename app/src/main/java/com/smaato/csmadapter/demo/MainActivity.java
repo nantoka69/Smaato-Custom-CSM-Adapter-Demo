@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 Interstitial.loadAd("130710116", interstitialEventListener));
 
         findViewById(R.id.button_rewarded).setOnClickListener(ignore ->
-                RewardedInterstitial.loadAd("133149969", rewardedEventListener));
+                RewardedInterstitial.loadAd("130710117", rewardedEventListener));
     }
 
     @Override
